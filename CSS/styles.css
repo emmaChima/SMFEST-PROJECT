@@ -1,3 +1,5 @@
+/* @-mobile (992) */
+@media screen and (max-width:992px){
 
     #nav-row #home-box{
         display: flex;
@@ -47,7 +49,6 @@
         background-color: red;
     }
 
-
     #nav-row #specpp{
         position: absolute;
         left: 0px;
@@ -73,8 +74,6 @@
         visibility: visible;
         transition-duration: 40s;
     }
-    
-
 
     header .sec-row{
         font-size: 90px;
@@ -171,6 +170,12 @@
         flex-direction: column;
         justify-content: center;
     }
+    .fifth-row #text-hold-one {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
     .fifth-row #text-hold-one span:nth-child(1){
         color: #ee2f5b;
         font-weight: 700;
@@ -252,13 +257,25 @@
         margin-left: 2px;
         color: #ee2f5b;
     }
+
+
+    /* sixth-row */
+    .six-row{
+    width: 90%;
+    margin-top: 400px !important;
+    margin-bottom: 50px;
+    height: 100vh;
+    }
+
+    /* seventh-row */
+    .seven-row{
+    width: 90%;
+    margin-top: 400px !important;
+    margin-bottom: 50px;
+    height: 100vh;
+    }
     
-
-
 }    
-
-
-
 
 
 
